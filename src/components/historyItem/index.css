@@ -1,0 +1,30 @@
+.ItemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70wv;
+  shape-outside: 4px;
+}
+.Item-List-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.Item-Paragraph {
+  margin-left: 4px;
+  font-weight: bold;
+  color: black;
+}
+.domainUrl {
+  color: blueviolet;
+  font-size: 10px;
+}
+.delete-container {
+  display: flex;
+  flex-direction: flex-end;
+}
+.delete-button {
+  background-color: beige;
+}
